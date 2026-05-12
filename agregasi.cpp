@@ -1,7 +1,7 @@
 #include <iostream>
 using namespace std;
 
-#include "anak.h"
+#include "nak.h"
 #include "ibu.h"
 
 int main(){ //agregasi
@@ -25,5 +25,7 @@ int main(){ //agregasi
     delete varAnak2;
     delete varAnak3;
 
-    
+    system("pause");
+
+    return 0;
 }   
