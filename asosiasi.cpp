@@ -10,3 +10,9 @@ public:
     pasien(string pNama) :nama(pNama){
         cout << "Pasien \"" << nama << "\" ada";
     }
+    ~pasien() {
+        cout << "Pasien \"" << nama << "\" tidak ada\n";
+    }
+    void tambahDokter(dokter*);
+    void cetakDokter();
+};
